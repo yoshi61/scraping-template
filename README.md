@@ -2,8 +2,8 @@
 template for basic scraping
 
 ## 目的
-![chatbot](https://raw.githubusercontent.com/yoshi61/scraping-template/master/IMG_1428.jpg)
-画像のようなChat Botで表示されてる”画像”、”タイトル”、”説明”、”リンク”を含むウィンドウを作るためのスクレイピングをテンプレート化したものです
+- ![chatbot](https://raw.githubusercontent.com/yoshi61/scraping-template/master/IMG_1428.jpg)
+- 画像のようなChat Botで表示されてる”画像”、”タイトル”、”説明”、”リンク”を含むウィンドウを作るためのスクレイピングをテンプレート化したものです
 
 ## 環境
 - python 3.60
