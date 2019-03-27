@@ -47,7 +47,6 @@ class Article:
                 sample
                 self.pageTitleStr = soup.find("title").text
                 """
-                self.pageTitleStr = soup.find("meta", property = "og:title" ).get("content")
 
         #soupをセレクターなどで辿って、imag URLを見つけてセット
         def setImgUrl(self, soup):
@@ -55,7 +54,6 @@ class Article:
                 sample:
                 self.imgUrl = self.home + soup.find("img", class_="detail_pic").get("src")
                 """
-                self.imgUrl = soup.find("meta", property = "og:image" ).get("content")
 
         #soupをセレクターなどで辿って、本文をセット
         def setPageIntro(self, soup):
@@ -64,7 +62,6 @@ class Article:
                 tempTagIntro = soup.find("p", class_="detail_story")
                 self.pageIntro = tempTagIntro.text
                 """
-                self.pageIntro = soup.find("meta", property = "og:description" ).get("content")
 
         #デバッグ用にオブジェクトの中身をprint out
         def printAll(self):

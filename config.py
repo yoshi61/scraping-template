@@ -2,7 +2,7 @@ database = {
     'host' : 'localhost',
     'user' : 'root',
 	'password' : 'root',
-	'db' : 'bestcar',
+	'db' : 'test',
     'charset' : 'utf8',
 }
 

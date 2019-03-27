@@ -5,6 +5,15 @@ template for basic scraping
 - ![chatbot](https://raw.githubusercontent.com/yoshi61/scraping-template/master/IMG_1428.jpg)
 - 画像のようなChat Botで表示されてる”画像”、”タイトル”、”説明”、”リンク”を含むウィンドウを作るためのスクレイピングをテンプレート化したものです
 
+
+## 使い方
+1. pythonなどをインストールして、MAMPあるいはレンタルサーバーでmySQL環境を整える
+2. mySQLにmakeTable.sqlをインポートして基本的なテーブルを作成する
+3. config.pyにdatabaseの情報とグローバル定数を記入する
+4. スクレイピングしたいウェブページをブラウザーで開き、右クリックでページのソースをみる
+5. article.pyを開き、sampleを参考にしてセレクターを使いsetXXXX関数を全て完成させる
+6. min.pyを開き、sampleを参考にしてスクレイピングを完成させる
+
 ## 環境
 - python 3.60
 - pip 19.0.2
@@ -40,9 +49,3 @@ template for basic scraping
 
 - main.py
     - スクレイピングのコードをここに書く
-
-## 使い方
-1. pythonなどをインストールして、MAMPあるいはレンタルサーバーでmySQL環境を整える
-2. mySQLにmakeTable.sqlをインポートして基本的なテーブルを作成する
-3. config.pyにdatabaseの情報とグローバル定数を記入する
-4.

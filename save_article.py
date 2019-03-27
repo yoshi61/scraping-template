@@ -24,8 +24,3 @@ class SaveArticle:
 				cursor.execute("INSERT INTO `" + database['db'] + "`.`articles` (`article_id`, `title`, `page_url`, `pic_url`, `intro`) VALUES (%s, %s, %s, %s, %s)", (article.id, article.pageTitleStr, article.pageUrl, article.imgUrl, article.pageIntro))
 				connection.commit()
 				print('Success!!! article ' + article.id + ' has been saved!')
-
-car = Article('62792', 'https://bestcarweb.jp/news/62745')
-car.printAll()
-saver = SaveArticle()
-saver.saveArticle(car)
