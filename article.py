@@ -70,6 +70,3 @@ class Article:
                 print("[URL]：" + self.pageUrl + "\n")
                 print("[画像URL] :" + self.imgUrl + "\n")
                 print("[pageIntro] :" + self.pageIntro + "\n")
-
-# car = Article('62745', 'https://bestcarweb.jp/feature/column/62745')
-# car.printAll()

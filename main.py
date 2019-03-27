@@ -1,15 +1,10 @@
 import re
-from bs4 import BeautifulSoup
 import requests
 import chardet
 import urllib
+from bs4 import BeautifulSoup
 from article import Article
 from save_article import SaveArticle
-import pymysql.cursors
-import json
-import datetime
-from fabric.colors import green,red
-now = datetime.datetime.now()
 
 """ sample """
 # def saveAllLinkIdArticles():
